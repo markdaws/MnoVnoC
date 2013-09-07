@@ -1,5 +1,5 @@
 {
-  "name": "MnoVnoC",
+  "name": "m-no-v-no-c",
   "version": "0.1.0",
   "description": "A tiny framework for creating models in node.js code, just the M, no View, no Controllers",
   "main": "index.js",

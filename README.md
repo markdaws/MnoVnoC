@@ -16,7 +16,7 @@ The Model follows an Active record pattern: http://en.wikipedia.org/wiki/Active_
 
 #Installing
 ```shell
-npm install MnoVnoC
+npm install m-no-v-no-c
 ```
 
 #Model
