@@ -1,0 +1,19 @@
+{
+  "name": "MnoVnoC",
+  "version": "0.1.0",
+  "description": "A tiny framework for creating models in node.js code, just the M, no View, no Controllers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R spec ./tests"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "should": "1.2.1",
+    "async": "0.2.6"
+  },
+  "repository": "git@github.com:markdaws/MnoVnoC.git",
+  "author": "Mark Dawson",
+  "license": "MIT"
+}
