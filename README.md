@@ -25,7 +25,7 @@ and use models.
 
 ##Defining a model and creating an instance
 ```javascript
-var Model = require('MnoVnoC');
+var Model = require('MnoVnoC').Model;
 var Person = Model.derive({
     init: function(parameters) {
         // At this point the parameters have been set on the model, you can
