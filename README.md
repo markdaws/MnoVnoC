@@ -25,7 +25,7 @@ and use models.
 
 ##Defining a model and creating an instance
 ```javascript
-var Model = require('MnoVnoC').Model;
+var Model = require('m-no-v-no-c').Model;
 var Person = Model.derive({
     init: function(parameters) {
         // At this point the parameters have been set on the model, you can
@@ -46,7 +46,7 @@ When you define a model you can specify defaults for the properties in the model
 values are not passed in the constructor they will get set on the new model e.g.
 
 ```javascript
-var Model = require('MnoVnoC').Model;
+var Model = require('m-no-v-no-c').Model;
 var Person = Model.derive({
     defaults: {
         name: 'frank',
@@ -74,7 +74,7 @@ NOTE: you must always code validate() with a callback.
 
 ###Example model definition with validation function
 ```javascript
-var Model = require('MnoVnoC').Model;
+var Model = require('m-no-v-no-c').Model;
 var Person = Model.derive({
     validate: function(callback) {
 
@@ -162,7 +162,7 @@ other methods on the model, as explained below.
 To fetch values from your backing store into a model you need to override the data.fetch function.
 
 ```javascript
-var Model = require('MnoVnoC').Model;
+var Model = require('m-no-v-no-c').Model;
 var Person = Model.derive({
     data: {
         fetch: function(model, options, callback) {
@@ -316,7 +316,7 @@ Below is an example of how you can use getters and setters.
  * model easy to use and get changed information
  */
 
-var Model = require('MnoVnoC').Model;
+var Model = require('m-no-v-no-c').Model;
 
 var Person = Model.derive({
     data: {
@@ -412,7 +412,7 @@ node.js EventEmitter class.
 
 To trigger an event on your model use the "emit" method e.g.
 ```javascript
-var Model = require('MnoVnoC');
+var Model = require('m-no-v-no-c');
 var Person = Model.derive({
     foo: function() {
         this.emit('foo', 1234, 'hello');
